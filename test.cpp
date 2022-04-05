@@ -8,11 +8,12 @@ void printBook( struct Books book );
 struct Books
 {
    char  title[50];
-   char  author[50];
+   char  author[51];
    char  subject[100];
    int   book_id;
 };
  
+
 int main( )
 {
    Books Book1;        // 定义结构体类型 Books 的变量 Book1
